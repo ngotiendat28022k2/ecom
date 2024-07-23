@@ -1,0 +1,32 @@
+.home_banner_area {
+  min-height: 500px !important;
+  .box-banner {
+    background: no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+
+    .banner_inner {
+      min-height: 500px !important;
+    }
+  }
+}
+
+.H_100vh {
+  height: 100vh;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+.relativeBanner {
+  position: relative;
+}
+
+.absoluteBanner {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  max-width: 900px;
+}

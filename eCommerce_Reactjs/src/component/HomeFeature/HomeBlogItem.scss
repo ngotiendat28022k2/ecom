@@ -1,0 +1,21 @@
+.box-blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box-blog-image{
+
+    img{
+        width: 100%;
+    }
+}
+
+.box-blog-content {
+    padding-left: 20%;
+    padding-top: 20%;
+
+    h3{
+        font-weight: 600;
+        font-size: 2rem;
+    }
+}
